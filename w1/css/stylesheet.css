@@ -9,7 +9,7 @@ header{
   height: 200px;
   margin-top: 150px;
   margin-bottom: 200px;
-  background-image: url("/images/cherry.jpg");
+  background-image: url("../images/cherry.jpg");
   align-items: center;
   justify-content: center;
   display: flex;
@@ -41,13 +41,13 @@ header{
 }
 
 #content h1{
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
   font-size: 50px;
   color: #2D111C;
 }
 
 .text{
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: 400px;
   color: #2D111C
@@ -59,7 +59,7 @@ header{
 }
 
 #artwork h2{
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   color: #2D111C;
 }
@@ -91,7 +91,7 @@ footer{
 }
 
 footer p {
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: #FBFBFB;
 }
@@ -100,5 +100,5 @@ footer img{
   height: 50px;
   width: 50px;
   margin-left: 700px;
-  margin-right: 700px;  
+  margin-right: 700px;
 }
