@@ -5,10 +5,9 @@ body{
 }
 
 header{
-  width: 100vw;
-  height: 200px;
-  margin-top: 150px;
-  margin-bottom: 200px;
+  height: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   background-image: url("../images/cherry.jpg");
   align-items: center;
   justify-content: center;
@@ -18,8 +17,8 @@ header{
 #circle{
   background: #FBFBFB;
   border-radius: 100%;
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -27,8 +26,8 @@ header{
 
 #circle img{
   border-radius: 100%;
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   object-position: top;
 }
@@ -38,18 +37,35 @@ header{
   flex-direction: row;
   margin-left: auto;
   margin-right: auto;
+  width: 90%;
+}
+
+nav{
+  flex: 1;
+}
+
+nav img{
   width: 70%;
+
+  float: right;
+}
+
+#content{
+  flex: 2;
+  padding: 0;
+  height: 65vh;
+  overflow: auto;
 }
 
 #content h1{
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   color: #2D111C;
 }
 
 .text{
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400px;
   color: #2D111C
 }
@@ -61,23 +77,22 @@ header{
 
 #artwork h2{
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-size: 25px;
   color: #2D111C;
 }
 
 #artwork img{
-  width: 500px;
-  height: 500px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: center;
-  margin-top: 40px;
-  margin: 50px;
+  margin-top: 30px;
+  margin:30px;
 }
 
 #artwork section{
   display: flex;
   flex-direction: row;
-  margin: 50px;
 }
 
 footer{
@@ -87,19 +102,18 @@ footer{
   align-items: center;
   background: #6B4D57;
   margin-top: 100px;
-  height: 150px;
-  width: 100vw;
+  height: 100px;
 }
 
 footer p {
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #FBFBFB;
 }
 
 footer img{
   height: 50px;
   width: 50px;
-  margin-left: 700px;
-  margin-right: 700px;
+  padding-left: 30%;
+  padding-right: 30%;
 }
