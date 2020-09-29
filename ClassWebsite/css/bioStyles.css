@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+#text {
+  font-family: 'Raleway', sans-serif;
+  width: 80vw;
+}
+
+#text > h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #b87082;
+  margin-bottom: 0;
+}
+
+#description {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#description p {
+  margin-right: 50px;
+}
+
+#text img {
+  width: 500px;
+}
