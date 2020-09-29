@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-body{
+body {
   justify-content: center;
   align-items: center;
 }
@@ -12,7 +12,7 @@ body{
   align-items: center;
 }
 
-.container{
+.container {
   width: 100vw;
   margin-top: 2%;
   flex-direction: column;
@@ -27,21 +27,21 @@ header {
   justify-content: space-between;
 }
 
-header > div > a {
+header>div>a {
   text-decoration: none;
 }
 
-header > div {
+header>div {
   display: flex;
   flex-direction: column;
 }
 
 #title {
-    font-family: 'Sacramento', cursive;
-    font-size: 50px;
-    color: #b87082;
-    display: block;
-    margin-bottom: 10px;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  color: #b87082;
+  display: block;
+  margin-bottom: 10px;
 }
 
 #sub {
@@ -51,11 +51,11 @@ header > div {
   display: block;
 }
 
-#coffee{
+#coffee {
   width: 110px;
 }
 
-#browse{
+#browse {
   display: flex;
   flex-direction: row;
   background-image: url(../images/blossoms.jpg);
@@ -64,15 +64,15 @@ header > div {
   width: 80vw;
 }
 
-#browse > div{
+#browse>div {
   flex: 1;
   border: 10px white solid;
-  margin:0;
+  margin: 0;
   display: flex;
   align-items: flex-end;
 }
 
-#browse > div > a {
+#browse>div>a {
   background: #b87082;
   width: 100%;
   height: 20%;
@@ -85,7 +85,7 @@ header > div {
   margin-bottom: 30%;
 }
 
-#browse > div > a:hover{
+#browse>div>a:hover {
   opacity: 1;
   background-color: white;
   color: #b87082;
