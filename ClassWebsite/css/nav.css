@@ -82,3 +82,13 @@ nav > a:hover {
   object-fit: cover;
   margin-top: 10px;
 }
+
+#current {
+  color: white;
+  background-color: #b87082;
+  padding-bottom: 1%;
+}
+
+#current:hover {
+  padding-bottom: 5%;
+}
