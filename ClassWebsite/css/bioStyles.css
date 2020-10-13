@@ -2,28 +2,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 
-#text {
-  font-family: 'Raleway', sans-serif;
+#description {
+  font-family: 'Raleway', sans-serif; 
   width: 80vw;
 }
 
-#text > h1 {
+#description > h1 {
   font-size: 50px;
   font-weight: lighter;
   color: #b87082;
   margin-bottom: 0;
 }
 
-#description {
+.subtitle {
+  font-size: 35px;
+  font-weight: lighter;
+  color: #b87082;
+  margin-bottom: 0;
+}
+
+#text {
   font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+#imageContainer {
+  object-fit: cover;
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.subtext{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.elements{
   display: flex;
   flex-direction: row;
 }
 
-#description p {
-  margin-right: 50px;
+.elements div {
+  flex: 2;
 }
 
-#text img {
-  width: 500px;
+#profileImage{
+  width: 80%;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #6B4D57;
+  margin-top: 100px;
+  height: 100px;
 }

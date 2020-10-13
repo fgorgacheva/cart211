@@ -58,7 +58,7 @@ header>div {
 #browse {
   display: flex;
   flex-direction: row;
-  background-image: url(../images/blossoms.jpg);
+  background-image: url(../assets/images/blossoms.jpg);
   justify-content: center;
   height: 750px;
   width: 80vw;
