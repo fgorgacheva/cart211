@@ -32,7 +32,7 @@ header > div > a {
   text-decoration: none;
 }
 
-header > div {
+#linkHome {
   display: flex;
   flex-direction: column;
 }
