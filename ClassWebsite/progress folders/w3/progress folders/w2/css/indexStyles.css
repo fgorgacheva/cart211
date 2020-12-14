@@ -1,92 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-body {
-  justify-content: center;
-  align-items: center;
-}
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container {
-  width: 100vw;
-  margin-top: 2%;
-  flex-direction: column;
-}
-
-header {
+#description {
+  font-family: 'Raleway', sans-serif; 
   width: 80vw;
-  padding: 20px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
-header>div>a {
-  text-decoration: none;
-}
-
-header>div {
-  display: flex;
-  flex-direction: column;
-}
-
-#title {
-  font-family: 'Sacramento', cursive;
+#description > h1 {
   font-size: 50px;
+  font-weight: lighter;
   color: #b87082;
-  display: block;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
-#sub {
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+.subtitle {
+  font-size: 35px;
+  font-weight: lighter;
   color: #b87082;
-  display: block;
+  margin-bottom: 0;
 }
 
-#coffee {
-  width: 110px;
-}
-
-#browse {
+#text {
+  font-size: 20px;
   display: flex;
-  flex-direction: row;
-  background-image: url(../assets/images/blossoms.jpg);
-  justify-content: center;
-  height: 750px;
-  width: 80vw;
+  flex-direction: column ;
+  text-align: justify;
 }
 
-#browse>div {
+#imageContainer {
+  object-fit: cover;
+  display: flex;
   flex: 1;
-  border: 10px white solid;
-  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#profileImage{
+  width: 90%;
+  margin-top: 20px;
+}
+
+.subtext{
+  font-size: 20px;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
 }
 
-#browse>div>a {
-  background: #b87082;
-  width: 100%;
-  height: 20%;
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
-  color: white;
-  text-decoration: none;
-  opacity: 0.9;
-  transition: 0.5s;
-  margin-bottom: 30%;
+.elements{
+  display: flex;
+  flex-direction: column;
 }
 
-#browse>div>a:hover {
-  opacity: 1;
-  background-color: white;
-  color: #b87082;
+.elements div {
+  flex: 2;
 }
+
+.subElement {
+  display: flex;
+  flex-direction: row;
+}
+
+.subElement div {
+  flex: 3;
+}
+

@@ -65,22 +65,22 @@
   flex: 3;
 }
 
-#gallery {
+.gallery {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
 }
 
-
-#gallery img {
+.gallery img {
   display: flex;
   flex: 1;
   padding-left: 15px;
   width: 10%;
+  object-fit: cover;
 }
 
-#gallery img:first-child {
+.gallery img:first-child {
   padding-left: 0;
 }
 
@@ -101,26 +101,4 @@
 
 #index a:hover {
   background-color: white;
-}
-
-#galleryTwo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-
-#galleryTwo img {
-  display: flex;
-  flex: 1;
-  padding-left: 15px;
-  width: 10%;
-  height: 150px;
-}
-
-#galleryTwo img:first-child {
-  padding-left: 0;
-  height: 210px;
-  margin-top: -25px;
 }

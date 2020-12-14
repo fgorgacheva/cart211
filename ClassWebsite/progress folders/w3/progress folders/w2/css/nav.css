@@ -32,7 +32,7 @@ header > div > a {
   text-decoration: none;
 }
 
-#linkHome {
+header > div {
   display: flex;
   flex-direction: column;
 }
@@ -65,6 +65,7 @@ nav > a {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   color: #b87082;
+  transition: 0.5s;
 }
 
 #banner {
@@ -72,12 +73,6 @@ nav > a {
   height: 50px;
   object-fit: cover;
   margin-top: 10px;
-}
-
-#current {
-  color: white;
-  background-color: #b87082;
-  padding-bottom: 1%;
 }
 
 footer{

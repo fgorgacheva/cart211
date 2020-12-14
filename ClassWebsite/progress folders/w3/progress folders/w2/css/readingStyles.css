@@ -27,15 +27,3 @@
   font-size: 30px;
 }
 
-#description a {
-  font-size: 20px;
-  text-decoration: none;
-  color: #b87082;
-}
-
-#description a:hover{
-  font-size: 22px;
-  color: #b87082;
-  transition: 0.5s;
-  text-decoration: none;
-}

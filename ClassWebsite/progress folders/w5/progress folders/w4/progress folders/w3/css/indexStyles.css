@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+#description {
+  font-family: 'Raleway', sans-serif; 
+  width: 80vw;
+}
+
+#description > h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  color: #b87082;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 35px;
+  font-weight: lighter;
+  color: #b87082;
+  margin-bottom: 0;
+}
+
+#text {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column ;
+  text-align: justify;
+}
+
+#imageContainer {
+  object-fit: cover;
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#profileImage{
+  width: 90%;
+  margin-top: 20px;
+}
+
+.subtext{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.elements{
+  display: flex;
+  flex-direction: column;
+}
+
+.elements div {
+  flex: 2;
+}
+
+.subElement {
+  display: flex;
+  flex-direction: row;
+}
+
+.subElement div {
+  flex: 3;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+#gallery img {
+  display: flex;
+  flex: 1;
+  padding-left: 15px;
+  width: 10%;
+}
+
+#gallery img:first-child {
+  padding-left: 0;
+}
+
+#galleryTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+#galleryTwo img {
+  display: flex;
+  flex: 1;
+  padding-left: 15px;
+  width: 10%;
+  height: 150px;
+}
+
+#galleryTwo img:first-child {
+  padding-left: 0;
+  height: 210px;
+  margin-top: -25px;
+}
