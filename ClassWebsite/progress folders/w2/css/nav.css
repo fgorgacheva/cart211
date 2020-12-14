@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  flex-direction: column;
+  width: 100vw;
+}
+
+header {
+  width: 80vw;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+header > div > a {
+  text-decoration: none;
+}
+
+#linkHome {
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    color: #b87082;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#sub {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #b87082;
+  display: block;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+}
+
+nav > a {
+  align-self: flex-end;
+  flex: 1;
+  padding: 20px 20px 0 20px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  color: #b87082;
+}
+
+#banner {
+  width: 80vw;
+  height: 50px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+#current {
+  color: white;
+  background-color: #b87082;
+  padding-bottom: 1%;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #6B4D57;
+  margin-top: 100px;
+  height: 100px;
+}
