@@ -1,0 +1,28 @@
+<svg id="back_arrow" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Ellipse_95" data-name="Ellipse 95" class="cls-1" transform="translate(50 50) rotate(180)">
+    <circle class="cls-3" cx="25" cy="25" r="25"/>
+    <circle class="cls-4" cx="25" cy="25" r="24"/>
+  </g>
+  <path id="Path_22" data-name="Path 22" class="cls-2" d="M17905.99-2503.865l7.246-4.623-7.246-4.623" transform="translate(17933.383 -2483.837) rotate(180)"/>
+</svg>

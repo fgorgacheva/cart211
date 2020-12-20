@@ -1,0 +1,132 @@
+@import 'https://fonts.googleapis.com/css?family=Passion+One|Poiret+One';
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+section.header_lrg {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height:70vh;
+	height:auto;
+  background: #333;
+	/* background:url(../images/bg2.jpg) fixed center center no-repeat;
+	background-size:cover; */
+}
+
+.header_lrg header {
+	text-align:center;
+	color:#fff;
+}
+
+.header_lrg h2 {
+	font-family: 'Poiret One', cursive;
+	font-size:3em;
+	line-height:1em;
+	text-transform:capitalize;
+	color:#eee;
+	font-weight:normal;
+}
+.header_lrg h1 {
+	font-family: 'Passion One', cursive;
+	font-size:6em;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+section.col3x {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+section.ex1 {
+  justify-content:space-between;
+}
+section.ex2 {
+  justify-content:space-around;
+  padding: 3.5em 1em;
+}
+
+figure.player {
+  background: #333;
+  flex: 1;
+}
+
+figure.playersm {
+  background: #333;
+  width:30%;
+}
+
+figure img {
+  width:100%;
+}
+
+div.stats {
+  background: #333;
+  color:#fff;
+  padding:2.5em;
+  font-family: gotham, verdana, sans-serif;
+  font-weight: normal;
+  font-size: .5em;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width:30px;
+}
+
+
+.text1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  min-height:70vh;
+	height:auto;
+  background:#ff2a06;
+  padding:2.5em;
+}
+
+.text1 article {
+  background: #fff;
+  padding: 2.5em;
+  width:30%;
+}
+
+.text1 h2 {
+  font-family: gotham, verdana, sans-serif;
+  font-size: 1em;
+	text-transform:capitalize;
+	color:#555;
+	font-weight:normal;
+}
+.text1 h1 {
+	font-family: 'Passion One', cursive;
+	font-size:3em;
+	text-transform:uppercase;
+	font-weight:normal;
+  color:#333;
+}
+
+.text1 p {
+  font-family: gotham, verdana, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+#mainlogo {
+  position: absolute;
+  left: 2em;
+  top:2em;
+  width:50px;
+}

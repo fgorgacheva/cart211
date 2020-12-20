@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: gotham, helvetica, verdana, sans-serif;
+  background: slategray;
+
+}
+
+
+/* ======================================== */
+/* ===== querySelectorAll example ===== */
+/* ====================== */
+.spooky {
+  display: none;
+  margin:20px;
+}
+
+#pointsdisplay {
+  font-size: 4vmax;
+  margin:20px;
+}
+
+.classy {
+  width:100px;
+  background:aliceblue;
+  padding: 20px;
+  margin:20px;
+  cursor: pointer;
+  transition:all .3s;
+}
+
+/* =================================== */
+/* ===== toggleClass example ===== */
+/* ================= */
+
+.anim {
+	animation: colorChange .2s infinite linear;
+}
+
+@keyframes colorChange {
+	0% {background: slategray;}
+  25% {background: darkseagreen;}
+  50% {background: tomato;}
+  75% {background: teal;}
+	100% {background: slategray;}
+}

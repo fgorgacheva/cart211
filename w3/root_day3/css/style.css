@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fab000;
+  font-family: verdana, arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color:blanchedalmond;
+  padding: 2%;
+}
+
+/* specificity targets elements inside of parents */
+header h1 {
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-size: 22px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+}
+
+
+nav {
+  background-color: blanchedalmond;
+}
+
+nav a:link {
+  background-color: blanchedalmond;
+  color:#222;
+  padding: 1% 2%;
+  display:inline-block;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #555;
+}
+
+nav a:hover {
+  color: blanchedalmond;
+  background-color: #333;
+}
+/* a class for the links */
+nav a.active {
+  color: blanchedalmond;
+  background-color: #333;
+}
+
+article {
+  padding: 2%;
+}
+
+article h1 {
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-bottom: .5%;
+}
+
+article h2 {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: .5%;
+}
+
+article p {
+  margin-bottom: 1%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* classes start with a . and can be used many times on the page */
+.pull_quote {
+  background-color: #333;
+  color: #fff;
+  font-size: 22px;
+  padding:2%;
+  margin: 0 4% 1%;
+  font-family: georgia, times, serif;
+  font-style: italic;
+  border-left: solid 20px blanchedalmond;
+}
+
+figure {
+  margin-bottom: 1%;
+  width:20%;
+  float:left;
+  margin-right: 2%;
+  /* border:1px red solid; */
+}
+figure img {
+  /* use % when you want a responsivew img */
+  width:100%;
+}
+
+figcaption {
+  font-size: 16px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+  text-align: center;
+}
+
+
+footer {
+  padding: 2%;
+  background-color: #333;
+  color: blanchedalmond;
+  font-size: 16px;
+  font-family: georgia, times, serif;
+  font-style: italic;
+  /* text-align: center; */
+}

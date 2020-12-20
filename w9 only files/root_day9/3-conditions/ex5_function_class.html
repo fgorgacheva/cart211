@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>js examples 1</title>
+<style>
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Oswald:700|Playfair+Display|Quicksand');
+
+/*
+font-family: 'Quicksand', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+* {
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+}
+
+body {
+background: url(img/bg.jpg) no-repeat fixed center center;
+background-size: cover;
+}
+
+main {
+border: solid 20px white;
+width:100%;
+min-height: 100%;
+height: auto;
+/*
+display: flex;
+justify-content: center;
+*/
+/*	align-items: center;*/
+}
+
+section {
+width: 100%;
+/*	border:1px solid white;*/
+
+text-align: center;
+margin-top: 5%;
+/*	padding:3% 1%;*/
+/*
+position:relative;
+top:10%;
+*/
+}
+
+
+
+section.gallery {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+
+h2 {
+font-size: 2vmax;
+font-family: 'Quicksand', sans-serif;
+color: #333;
+}
+
+h1 {
+font-size: 10vmax;
+font-family: 'Oswald', sans-serif;
+color: #fff;
+text-transform: uppercase;
+line-height: 10vmax;
+text-shadow: 3px 3px 0px rgba(0,0,0,.5);
+}
+
+
+
+.display_me {
+width: 400px;
+height: 200px;
+border-radius: 10px;
+background: #fff;
+padding: 20px;
+font-size: 2vmin;
+font-family: 'Quicksand', sans-serif;
+color: #333;
+/*
+position:absolute;
+bottom:120px;
+right:80px;
+*/
+opacity: 1;
+margin: 10px;
+transition: all .5s;
+
+}
+
+.display_me h1 {
+font-size: 2.5vmax;
+font-family: 'Oswald', sans-serif;
+color: #333;
+text-transform: uppercase;
+line-height: 3vmax;
+margin-bottom: 4px;
+text-shadow: 0px 0px 0px rgba(0,0,0,.5);
+transition: all .5s;
+}
+
+
+.close {
+background: #fff;
+color: #333;
+padding: 10px;
+font-size: 18px;
+font-family: 'Quicksand', sans-serif;
+cursor: pointer;
+/*	border:2px solid #333;*/
+}
+.close:hover{
+background: #333;
+color: #fff;
+}
+
+#trigger {
+	background: #eee;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	outline: none;
+}
+
+
+</style>
+</head>
+
+<body>
+	<main>
+		<section>
+			<h2>Hey, how's about you learn me some</h2>
+			<h1>Javascript</h1>
+			<button id="trigger">show</button>
+		</section>
+		<section class="gallery">
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+
+
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+			<article class="display_me close">
+				<h1>addEventListener w/ class</h1>
+				<p>click the box to make it dissappear</p>
+			</article>
+		</section>
+
+	</main>
+
+	<!--let's make sure this is at the bottom just before the closing body-->
+	<script src="scripts/ex5.js"></script>
+</body>
+</html>

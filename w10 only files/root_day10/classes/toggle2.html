@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{box-sizing: border-box;}
+    .box {
+      width:200px;
+      height: 300px;
+      background: cadetblue;
+      margin:20px;
+      padding: 20px;
+      box-shadow: 2px 2px 10px #333;
+      transition:all .5s;
+    }
+    .b1 {transform: rotate(-25deg); position:absolute; left: 0%; top: 0;}
+    .b2 {transform: rotate(25deg); position:absolute; left: 5%; top: 20%;}
+    .b3 {transform: rotate(25deg); position:absolute; left: 85%; top: 0;}
+    .b4 {transform: rotate(-25deg); position:absolute; left: 80%; top: 20%;}
+    .zoom {
+      background: teal;
+      box-shadow: 2px 2px 20px red;
+      position:absolute;
+      top:50%; left:50%;
+      transform: translate(-50%, -50%) scale(2, 2) rotate(0deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="box b1">stuff1</div>
+  <div class="box b2">stuff2</div>
+  <div class="box b3">stuff3</div>
+  <div class="box b4">stuff4</div>
+<script>
+  const dossier = document.querySelectorAll('.box');
+  // console.log(dossier);
+  dossier.forEach(function(c) {
+    console.log(c);
+    c.addEventListener('click', function() {
+      this.classList.toggle("zoom");
+    });
+  });
+</script>
+</body>
+</html>

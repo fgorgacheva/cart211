@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>addEventListener to classes w/ querySelectorAll</title>
+  <link rel="stylesheet" href="css/classes.css">
+</head>
+
+<body>
+  <div id="pointsdisplay">0</div>
+  <img src="img/spooky.jpg" alt="spooky" class="spooky">
+
+  <div class="classy">click me</div>
+  <div class="classy">click me</div>
+  <div class="classy">click me</div>
+  <div class="classy">click me</div>
+
+  <script>
+
+    //init vars
+    let points = 0;
+    const revealImg = document.querySelector('.spooky');
+    const showPoints = document.querySelector('#pointsdisplay');
+    const incPoints = document.querySelectorAll('.classy');
+    const numItems = incPoints.length;
+    //console.log(numItems);
+
+
+    incPoints.forEach(function(c) {
+      //console.log(c);
+      c.addEventListener('click', function() {
+        this.style.background = 'crimson';
+        points++;
+        //console.log(points);
+        showPoints.textContent = points;
+        pointChecker();
+      });
+    });
+
+    function pointChecker() {
+      if (points === numItems) {
+        showPoints.textContent = 'Happy Halloween!';
+        revealImg.style.display = 'block';
+      }
+    }
+
+  </script>
+</body>
+
+</html>

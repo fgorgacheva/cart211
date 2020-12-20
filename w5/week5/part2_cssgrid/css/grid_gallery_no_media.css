@@ -1,0 +1,30 @@
+/* CSS GRID GALLERY EXAMPLE: NO MEDIA QUERY NEEDED */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	padding:20px;
+	display: grid;
+	grid-gap: 20px;
+	/* grid-template-columns: repeat(5, 1fr); */
+	/* grid-template-columns: repeat( 5, minmax(250px, 1fr) ); */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+}
+
+
+
+
+
+figure {
+	border:solid 1px #333;
+}
+
+
+img {
+	display: block;
+	width: 100%;
+}

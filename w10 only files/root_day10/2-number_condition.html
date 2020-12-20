@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>number condition</title>
+</head>
+<body>
+  <input type="text" id="enterTxt">
+  <h2 id="display">what is your age</h2>
+  <button type="button" id="check">check</button>
+</body>
+
+<script>
+  let age = document.querySelector('#enterTxt').value;
+  const show = document.querySelector('#display');
+  const checkBtn = document.querySelector('#check');
+
+  checkBtn.onclick = function(){
+    age = document.querySelector('#enterTxt').value;
+    if (age >= 18) {
+      show.textContent = 'you are old enough';
+    } else {
+      show.textContent = 'too young, come back in a few years';
+    }
+  }
+
+</script>
+</html>

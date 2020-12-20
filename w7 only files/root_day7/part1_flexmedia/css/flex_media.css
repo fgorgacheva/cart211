@@ -1,0 +1,70 @@
+/* === MEDIA QUERY EXAMPLE USING FLEXBOX ===  */
+/* === MOBILE DESIGN FIRST ===  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.parent {
+    width:100%;
+    min-height:100vh;
+    height:auto;
+    border:solid 10px #333;
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.parent a:link {
+	flex:1 100%;
+	border:solid #333 10px;
+	font-family: Gotham, Helvetica, "sans-serif";
+	font-size: 4vmax;
+	color:#fff;
+	text-shadow:0 0 20px rgba(0,0,0, .55);
+	/*	if you want to center the a content turn it into its own flex parent */
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.parent a:visited {
+	color: #eee;
+}
+
+#one {
+    background: url(../images/bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#two {
+    background: url(../images/bg2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#three {
+    background: url(../images/bg3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#four {
+    background: url(../images/bg1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+
+
+/* === TABLET LAYOUT INHERITS FROM MOBILE 600PX 980PX === */
+
+@media only screen and (min-width: 600px) {
+    .parent a:link {
+        flex:1 50%;
+    }
+}
+
+/* === DESKTOP LAYOUT INHERITS FROM MOBILE AND TABLET > 980PX === */
+
+@media only screen and (min-width: 980px) {
+    .parent a:link {
+        flex:1 25%;
+    }
+}

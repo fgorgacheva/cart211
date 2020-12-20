@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Toggle class</title>
+  <link rel="stylesheet" href="css/classes.css">
+</head>
+
+<body>
+  <section class="wrapper">
+    <h1>how to apply and remove a class with the same button</h1>
+    <button>Start machine</button>
+    <p>The machine is stopped.</p>
+  </section>
+
+  <script>
+    const btn = document.querySelector('button');
+    const txt = document.querySelector('p');
+    const bg = document.querySelector('body');
+
+    btn.addEventListener('click', updateBtn);
+
+    function updateBtn() {
+      bg.classList.toggle("anim");
+
+      if (btn.textContent === 'Start machine') {
+        btn.textContent = 'Stop machine';
+        txt.textContent = 'The machine has started!';
+      } else {
+        btn.textContent = 'Start machine';
+        txt.textContent = 'The machine is stopped.';
+      }
+    }
+  </script>
+</body>
+
+</html>
