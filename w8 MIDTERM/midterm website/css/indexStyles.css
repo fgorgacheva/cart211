@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+}
+
+.global{
+  background-image: url("../images/abandonned dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+}
+
+#title {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#subtitle {
+  font-size: 20;
+  padding: 0;
+}
+
+#content > a {
+  border: solid rgb(151, 151, 151) 1px;
+  padding: 5px 30px 5px 30px;
+  margin-top: 20px;
+  font-size: 15px;
+  color:rgb(151, 151, 151);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#content > a:hover{
+  transition: 0.5s;
+  background-color: white;
+  color: rgb(138, 138, 138);
+}
