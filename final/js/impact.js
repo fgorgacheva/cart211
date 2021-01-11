@@ -25,21 +25,21 @@ function changeBackground (id, event) {
     let mainContainer = $("#mainContainer");
     switch(id){
         case "numbers":        
-            mainContainer.css("background-image","url('../images/backgrounds/cat-sad.jpg')");
+            mainContainer.css("background-image","url('./images/backgrounds/cat-sad.jpg')");
             $("#numbersTitle").css("display", "none");
             $("#numbersText").css("display", "block");
             $("#numberSources").css("display", "block");
             break;
 
         case "emotions":
-            mainContainer.css("background-image","url('../images/backgrounds/dogs-stray.jpg')");            
+            mainContainer.css("background-image","url('./images/backgrounds/dogs-stray.jpg')");            
             $("#emotionsTitle").css("display", "none");
             $("#emotionsText").css("display", "block");
             $("#emotionSources").css("display", "block");
             break;
 
         case "death":
-            mainContainer.css("background-image","url('../images/backgrounds/dog-sick.png')");
+            mainContainer.css("background-image","url('./images/backgrounds/dog-sick.png')");
             $("#deathTitle").css("display", "none");
             $("#deathText").css("display", "block");
             $("#deathSources").css("display", "block");
